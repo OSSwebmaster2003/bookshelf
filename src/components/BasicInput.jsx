@@ -10,7 +10,6 @@ const BasicInput = ({ placeholder }) => {
       InputProps={{
         style: { color: "#606266", lineHeight: "40px" },
       }}
-      id="name"
       placeholder={placeholder}
       type="text"
       autoComplete="off"
