@@ -1,29 +1,34 @@
-export const primary = {
-  main: "#6200EE",
-};
+import { createTheme } from "@mui/material/styles";
 
-export const dark = {
-  main: "#151515",
-  grey: "rgba(21, 21, 21, 0.28)",
-};
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#6200EE",
+    },
+    secondary: {
+      main: "#FF4D4F",
+    },
+    dark: {
+      main: "#151515",
+      grey: "rgba(21, 21, 21, 0.28)",
+    },
+    white: {
+      main: "#FFFFFF",
+      grey: "#FEFEFE",
+    },
+    warning: {
+      main: "#FF4D4F",
+    },
+    danger: {
+      main: "#FF0000",
+    },
+    yellow: {
+      main: "#FFEC43",
+    },
+    success: {
+      main: "#00FF29",
+    },
+  },
+});
 
-export const warning = {
-  main: "#FF4D4F",
-};
-
-export const white = {
-  main: "#FFFFFF",
-  grey: "#FEFEFE",
-};
-
-export const danger = {
-  main: "#FF0000",
-};
-
-export const yellow = {
-  main: "#FFEC43",
-};
-
-export const success = {
-  main: "#00FF29",
-};
+export default theme;
