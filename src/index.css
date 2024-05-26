@@ -5,3 +5,8 @@
   text-decoration: none;
   list-style-type: none;
 }
+
+input {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}

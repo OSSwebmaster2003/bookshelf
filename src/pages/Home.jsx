@@ -6,7 +6,7 @@ import Heading1 from "../components/Heading1";
 const Home = () => {
   return (
     <BackgroundContainer>
-      <Navbar></Navbar>
+      <Navbar />
     </BackgroundContainer>
   );
 };
